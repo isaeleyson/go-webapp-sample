@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('first') {
             environment {
-                CRED = credentials("eedd4684-7c27-4721-ba2a-684734f117d6")
+                CRED = credentials("2af521e2-284b-480e-b428-93cca08cc269")
             }
             steps {
                 echo "The username is ${CRED_USR}"
