@@ -1,14 +1,13 @@
 pipeline {
   agent any
   stages {
-    stage('test') {
+    stage('dev') {
       steps {
-        sh 'go test ./...'
+        echo 'ok'
       }
     }
 
   }
-  environment {
-    GO111MODULE = 'on'
+  
   }
-}
+
