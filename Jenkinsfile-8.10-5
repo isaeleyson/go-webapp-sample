@@ -6,8 +6,8 @@ pipeline {
                 CRED = credentials("2af521e2-284b-480e-b428-93cca08cc269")
             }
             steps {
-                echo "The username is ${CRED_USR}"
-                echo "The password is ${CRED_PSW}"
+               sh 'echo "The username is ${CRED_USR}"'
+               sh 'echo "The password is ${CRED_PSW}"'
             }
         }
     }
