@@ -22,6 +22,7 @@ pipeline {
                 script {
                     echo "The PATH is ${PATH}"
                     cipher_suite = "TLS_SHA384"
+                    echo cipher_suite
                 }
                 echo "The PATH is ${PATH}"
             }
