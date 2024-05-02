@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        access = 'granted'
+        access = 'changed'
     }
     stages {
         stage('first') {
